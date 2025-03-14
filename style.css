@@ -134,3 +134,44 @@ footer div a button:hover{
     min-width: 0px !important;
     margin-left: 20px;
 }
+.aage{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 25px;
+    margin-top: 50px;
+    width: 900px;
+    height: 1000px;
+    justify-self: center;
+}
+.new-logo{
+    width: 60px;
+    height: 60px;
+    
+}
+#new{
+    display: flex;
+    margin-left: 470px;
+    margin-top: 120px;
+}
+#new h2{
+    font-size: 24px;
+    font-weight: 400;
+    color: rgb(39, 39, 39);
+    margin-top: 14px;
+    margin-left: 15px;
+}
+#new p{
+    font-size: small;
+    font-weight: 400;
+    margin-top: 25px;
+    margin-left: 6px;
+}
+.box{
+    background-color: rgb(246, 240, 240);
+    border-radius: 8px;
+    text-align: center;
+    padding: 20px;
+    font-size: larger;
+    font-weight: bold;
+}
